@@ -1,6 +1,6 @@
-from Utils import AnnotatedEmails, AnnotatedEmail
-from Utils import denotation_types
-from features import mail2features
+from scripts.Zebra.utils import AnnotatedEmails, AnnotatedEmail
+from scripts.Zebra.utils import denotation_types
+from scripts.Zebra.features import mail2features
 import pandas as pd
 import numpy as np
 import pycrfsuite
