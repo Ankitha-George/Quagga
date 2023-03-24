@@ -1,0 +1,11 @@
+setup(
+    name='Zebra',
+    version='0.1',
+    author='Ankitha',
+    packages=['Zebra'],
+    install_requires=[
+        'numpy',
+        'pandas',
+        'python-crfsuite',
+    ],
+)
